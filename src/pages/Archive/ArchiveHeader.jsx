@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ArchiveHeader = () => {
   return (
@@ -13,10 +14,10 @@ const ArchiveHeader = () => {
 
       {/* Primary Actions */}
       <div className="flex gap-4 items-center">
-        <button className="bg-[#5F5E5E] text-[#FAF7F6] px-8 py-3 font-label text-[12px] tracking-[1.2px] uppercase flex items-center gap-2 hover:bg-[#31332C] transition-all transform hover:-translate-y-0.5 active:scale-95 shadow-lg shadow-black/5">
+        <Link to="/admin/add-plant" className="bg-[#5F5E5E] text-[#FAF7F6] px-8 py-3 font-label text-[12px] tracking-[1.2px] uppercase flex items-center gap-2 hover:bg-[#31332C] transition-all transform hover:-translate-y-0.5 active:scale-95 shadow-lg shadow-black/5">
            <span className="w-2 h-2 bg-[#FAF7F6] rounded-full"></span>
            Add Plant For Sale
-        </button>
+        </Link>
         <button className="bg-[#E8E9E0] border border-[#797c73]/10 text-[#31332C] px-8 py-3 font-label text-[12px] tracking-[1.2px] uppercase hover:bg-[#dbddd0] transition-all transform hover:-translate-y-0.5 active:scale-95">
            Generate Report
         </button>
