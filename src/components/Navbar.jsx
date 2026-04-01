@@ -26,7 +26,7 @@ const Navbar = () => {
             to="/archive" 
             className={`transition-all duration-300 ${location.pathname === '/archive' ? 'text-[#785a1a] border-b border-[#785a1a]' : 'text-[#785a1a]/70 hover:text-[#785a1a]'}`}
           >
-            Archive
+            ADMIN
           </Link>
         </div>
       </div>
